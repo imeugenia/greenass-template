@@ -16,7 +16,7 @@ collections:
         fields:
           - { label: "Tagline", name: "tagline", widget: "string" }
           - { label: "Headline", name: "headline", widget: "string" }
-  - name: "standalone pages"
+  - name: "standalone-pages"
     label: "Standalone Pages"
     folder: "standalone-pages"
     slug: ""
