@@ -1,47 +1,19 @@
 backend:
   name: git-gateway
   branch: main
+local_backend: true
 publish_mode: editorial_workflow
 media_folder: "public/images"
 public_folder: "/images"
 collections:
-  - label: "Globals"
-    name: "globals"
+  - label: "Configuration"
+    name: "configuration"
     files:
-      - label: "Site Copy"
-        name: "site_copy"
+      - label: "Site Configuration"
+        name: "site_configuration"
         delete: false
         create: true
-        file: "_data/copy.json"
+        file: "_data/config.json"
         fields:
-          - { label: "Tagline", name: "tagline", widget: "string" }
-          - { label: "Headline", name: "headline", widget: "string" }
-  - name: "standalone-pages"
-    label: "Standalone Pages"
-    folder: "standalone-pages"
-    slug: ""
-    file: "standalone-pages/.mdx"
-    create: true
-    extension: mdx
-    format: frontmatter
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - {
-          label: "SEO Meta Title",
-          name: "metaTitle",
-          widget: "string",
-          required: false,
-        }
-      - {
-          label: "SEO Meta Description",
-          name: "metaDesc",
-          widget: "string",
-          required: false,
-        }
-      - {
-          label: "Social Image",
-          name: "socialImage",
-          widget: "image",
-          required: false,
-        }
-      - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }
