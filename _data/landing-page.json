@@ -1,0 +1,33 @@
+{
+  "title": "We are #Greenass",
+  "description": "Sustainable forest my ass! Often \"Eco-friendly\" Toilet Paper comes from sustainable forestries, where fully grown trees are cut down and reduced to a pulp. What for?! Buy recycled toilet paper instead!",
+  "secondaryTitle": "We’re calling out the Greenwashing.",
+  "secondaryDescription": "We are #Greenass.  Many big companies claim that their toilet paper is made from „sustainable forests“ but all that it means is that you will wipe your butt with beautiful trees that have been cut down just to end up down the drain...  Do you want to carry that guilt on your ass?? We think not, we know you want a **\\#greenass**.   But how do we recognize what toilet paper is ok to buy? Why is it so much better to use recycled? We've got the answers for you.",
+  "faq": [
+    {
+      "question": " What paper is o.k. to buy and use?",
+      "answer": "You should look out for the “FSC Recycled” label,  or even better, the “Blauer Engel” certificate. You’ll often find “FSC Mix,” but that label indicates that the fibers come from a mix of recycled, controlled and certified wood and doesn’t make public what percentage each is, it therefore generally implies that it’s mainly made of virgin wood, sometimes even from uncertified forests, and that very little raw material comes from recycled fibers. [Learn More about certificate types and their meanings](https://greenass.info/Learn-more).",
+      "image": "/images/fsc-recycled.jpeg"
+    }
+  ],
+  "goals": {
+    "goalList": [
+      {
+        "description": "The more people hear about it the more ideas are sparked to make a change.",
+        "title": "Spread the message"
+      }
+    ],
+    "description": "This project has NO lucrative interests. What we aim for are the following immediate goals",
+    "title": "Our goals"
+  },
+  "contributions": {
+    "title": "How can I do more (for free!)?",
+    "description": "Everybody likes things they can do that are high impact and low cost, here are some of the habits and actions we recommend",
+    "helpList": [
+      {
+        "title": "Tell people about this!",
+        "description": "Tweet about it, tell your boss, post it on the gram. Spread the massage far and wide so that this becomes a concern until recycled becomes the norm. The more people start thinking about this, the more ideas are sparked to create change."
+      }
+    ]
+  }
+}

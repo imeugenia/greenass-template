@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Head from "next/head";
 import config from "../_data/config.json";
+import LandingPage from "../components/LandingPage";
 
 export default function Home() {
   useEffect(() => {
@@ -26,6 +27,7 @@ export default function Home() {
           src="https://identity.netlify.com/v1/netlify-identity-widget.js"
         ></script>
       </Head>
+      <LandingPage />
     </div>
   );
 }

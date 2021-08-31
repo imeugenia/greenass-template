@@ -2,6 +2,7 @@ backend:
   name: git-gateway
   branch: main
 local_backend: true
+site_url: http://localhost:3000
 publish_mode: editorial_workflow
 media_folder: "public/images"
 public_folder: "/images"
@@ -10,10 +11,101 @@ collections:
     name: "configuration"
     files:
       - label: "Site Configuration"
-        name: "site_configuration"
+        name: "siteConfiguration"
         delete: false
         create: true
         file: "_data/config.json"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "string" }
+  - label: "Landing Page"
+    name: "landingPage"
+    files:
+      - label: "Landing Page"
+        name: "landingPage"
+        preview_path: "/"
+        delete: false
+        create: true
+        file: "_data/landing-page.json"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "markdown" }
+          - {
+              label: "Secondary title",
+              name: "secondaryTitle",
+              widget: "string",
+            }
+          - {
+              label: "Secondary description",
+              name: "secondaryDescription",
+              widget: "markdown",
+            }
+          - label: "FAQ"
+            name: "faq"
+            widget: "list"
+            collapsed: true
+            fields:
+              - { label: "Question", name: "question", widget: "string" }
+              - { label: "Answer", name: "answer", widget: "markdown" }
+              - {
+                  label: "Image",
+                  name: "image",
+                  widget: "image",
+                  required: false,
+                }
+          - label: "Goals"
+            name: "goals"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - {
+                  label: "Description",
+                  name: "description",
+                  widget: "markdown",
+                }
+              - label: "Goal list"
+                name: "goalList"
+                widget: "list"
+                collapsed: true
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - {
+                      label: "Description",
+                      name: "description",
+                      widget: "markdown",
+                    }
+                  - {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      required: false,
+                    }
+          - label: "Contributions"
+            name: "contributions"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - {
+                  label: "Description",
+                  name: "description",
+                  widget: "markdown",
+                }
+              - label: "Help list"
+                name: "helpList"
+                widget: "list"
+                collapsed: true
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - {
+                      label: "Description",
+                      name: "description",
+                      widget: "markdown",
+                    }
+                  - {
+                      label: "Icon",
+                      name: "icon",
+                      widget: "image",
+                      required: false,
+                    }
