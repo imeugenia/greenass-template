@@ -30,6 +30,7 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "markdown" }
+          - { label: "Header image", name: "headerImage", widget: "image" }
           - {
               label: "Secondary title",
               name: "secondaryTitle",

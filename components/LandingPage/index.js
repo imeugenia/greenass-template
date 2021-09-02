@@ -1,11 +1,8 @@
 import content from "../../_data/landing-page.json";
+import Header from "../Header";
 
 const LandingPage = () => {
-  return (
-    <header>
-      <h1>{content.title}</h1>
-    </header>
-  );
+  return <Header></Header>;
 };
 
 export default LandingPage;

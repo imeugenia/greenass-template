@@ -1,7 +1,11 @@
 import { useEffect } from "react";
+import { createRenderer } from "fela";
+import { RendererProvider } from "react-fela";
 import Head from "next/head";
 import config from "../_data/config.json";
 import LandingPage from "../components/LandingPage";
+
+const renderer = createRenderer();
 
 export default function Home() {
   useEffect(() => {
@@ -14,6 +18,10 @@ export default function Home() {
         }
       });
     }
+
+    if (window.CMS) {
+      CMS.registerPreviewTemplate("landingPage", LandingPage);
+    }
   }, []);
 
   return (
@@ -22,12 +30,10 @@ export default function Home() {
         <title>{config.title}</title>
         <meta name="description" content={config.description} />
         <link rel="icon" href="/favicon.ico" />
-        <script
-          async
-          src="https://identity.netlify.com/v1/netlify-identity-widget.js"
-        ></script>
       </Head>
-      <LandingPage />
+      <RendererProvider renderer={renderer}>
+        <LandingPage />
+      </RendererProvider>
     </div>
   );
 }

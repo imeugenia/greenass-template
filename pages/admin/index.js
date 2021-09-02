@@ -1,4 +1,6 @@
 import dynamic from "next/dynamic";
+import React from "react";
+import LandingPage from "../../components/LandingPage";
 
 const CMS_CONFIG = {};
 const Loading = () => (
@@ -11,10 +13,17 @@ const CMS = dynamic(
   () =>
     import("netlify-cms-app").then((CMS) => {
       CMS.init({ CMS_CONFIG });
+      console.log({ CMS });
     }),
   { ssr: false, loading: Loading }
 );
 
-const Admin = () => <CMS />;
+const Admin = () => {
+  // React.useEffect(() => {
+  //   CMS.registerPreviewTemplate("landingPage", LandingPage);
+  // }, []);
+
+  return <CMS />;
+};
 
 export default Admin;
