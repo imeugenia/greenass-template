@@ -37,8 +37,13 @@ collections:
               widget: "string",
             }
           - {
-              label: "Secondary description",
-              name: "secondaryDescription",
+              label: "Secondary description first column",
+              name: "secondaryDescriptionFirstColumn",
+              widget: "markdown",
+            }
+          - {
+              label: "Secondary description second column",
+              name: "secondaryDescriptionSecondColumn",
               widget: "markdown",
             }
           - label: "FAQ"

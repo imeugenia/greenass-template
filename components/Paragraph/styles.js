@@ -3,6 +3,7 @@ const styles = {
     fontFamily: "'Montserrat', sans-serif",
     fontSize: "2.4em",
     maxWidth: "40ch",
+    marginTop: 0,
   },
 };
 

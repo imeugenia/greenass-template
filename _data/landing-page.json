@@ -22,6 +22,7 @@
   "secondaryTitle": "We’re calling out the Greenwashing.",
   "secondaryDescription": "We are #Greenass.  Many big companies claim that their toilet paper is made from „sustainable forests“ but all that it means is that you will wipe your butt with beautiful trees that have been cut down just to end up down the drain...  Do you want to carry that guilt on your ass?? We think not, we know you want a **\\#greenass**.   But how do we recognize what toilet paper is ok to buy? Why is it so much better to use recycled? We've got the answers for you.",
   "headerImage": "/images/image1170x530cropped.jpeg",
+  "secondaryDescriptionSecondColumn": "Do you want to carry that guilt on your ass?? We think not, we know you want a **\\#greenass**. But how do we recognize what toilet paper is ok to buy? Why is it so much better to use recycled? We've got the answers for you.",
   "faq": [
     {
       "question": " What paper is o.k. to buy and use?",
@@ -31,5 +32,6 @@
   ],
   "title": "We are #Greenass",
   "image": "/images/image1170x530cropped.jpeg",
-  "description": "Often \"Eco-friendly\" Toilet Paper comes from sustainable forestries, where fully grown trees are cut down and reduced to a pulp. \n\nWhat for?! Buy recycled toilet paper instead!"
+  "description": "Often \"Eco-friendly\" Toilet Paper comes from sustainable forestries, where fully grown trees are cut down and reduced to a pulp. \n\nWhat for?! Buy recycled toilet paper instead!",
+  "secondaryDescriptionFirstColumn": "We are #Greenass. Many big companies claim that their toilet paper is made from „sustainable forests“ but all that it means is that you will wipe your butt with beautiful trees that have been cut down just to end up down the drain..."
 }
