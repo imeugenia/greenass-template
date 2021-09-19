@@ -1,9 +1,10 @@
 const styles = {
   paragraph: {
     fontFamily: "'Montserrat', sans-serif",
-    fontSize: "2.4em",
-    maxWidth: "40ch",
+    fontSize: "1.6em",
     marginTop: 0,
+    lineHeight: 1.5,
+    wordBreak: "break-word",
   },
 };
 

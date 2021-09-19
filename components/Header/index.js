@@ -14,7 +14,7 @@ const Header = () => {
     <header className={css(styles.header({ headerImage }))}>
       <div className={css(styles.container)}>
         <Title>{title}</Title>
-        <Paragraph>
+        <Paragraph expand={{ maxWidth: "40ch", fontSize: "2.4em" }}>
           <ReactMarkdown>{description}</ReactMarkdown>
         </Paragraph>
       </div>
