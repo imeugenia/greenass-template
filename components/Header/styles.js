@@ -13,10 +13,8 @@ const styles = {
   container: {
     flexDirection: "column",
     justifyContent: "center",
-    paddingTop: 0,
-    paddingBottom: 0,
 
-    "@media (min-width: 900px)": { paddingTop: 0, paddingBottom: 0 },
+    "@media (min-width: 900px)": { paddingTop: "5rem", paddingBottom: 0 },
   },
   list: {
     listStyleType: "none",
