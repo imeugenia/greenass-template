@@ -5,6 +5,7 @@ import Title from "../Title";
 import content from "../../_data/landing-page.json";
 import styles from "./styles";
 import Paragraph from "../Paragraph";
+import Navigation from "../Navigation";
 
 const Header = () => {
   const { css } = useFela();
@@ -12,8 +13,10 @@ const Header = () => {
 
   return (
     <header className={css(styles.header({ headerImage }))}>
+      <Navigation />
+
       <div className={css(styles.container)}>
-        <Title>{title}</Title>
+        <Title expandStyles={{ fontSize: "7.5em" }}>{title}</Title>
         <Paragraph expand={{ maxWidth: "40ch", fontSize: "2.4em" }}>
           <ReactMarkdown>{description}</ReactMarkdown>
         </Paragraph>

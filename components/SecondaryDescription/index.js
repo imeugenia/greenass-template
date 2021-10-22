@@ -8,6 +8,19 @@ import Container from "../Container";
 import Label from "../Label";
 import styles from "./styles";
 
+const components = {
+  p: (props) => (
+    <Paragraph
+      {...props}
+      expand={{
+        "@media (min-width: 600px)": { marginRight: "4em" },
+        ...styles.paragraph,
+      }}
+    />
+  ),
+};
+components.p.displayName = "Paragraph";
+
 const SecondaryDescription = () => {
   const { css } = useFela();
   const {
@@ -29,17 +42,12 @@ const SecondaryDescription = () => {
         {secondaryTitle}
       </Title>
       <div className={css(styles.columns)}>
-        <Paragraph
-          expand={{
-            "@media (min-width: 600px)": { marginRight: "4em" },
-            ...styles.paragraph,
-          }}
-        >
-          <ReactMarkdown>{secondaryDescriptionFirstColumn}</ReactMarkdown>
-        </Paragraph>
-        <Paragraph expand={styles.paragraph}>
-          <ReactMarkdown>{secondaryDescriptionSecondColumn}</ReactMarkdown>
-        </Paragraph>
+        <ReactMarkdown components={components}>
+          {secondaryDescriptionFirstColumn}
+        </ReactMarkdown>
+        <ReactMarkdown components={components}>
+          {secondaryDescriptionSecondColumn}
+        </ReactMarkdown>
       </div>
     </Container>
   );

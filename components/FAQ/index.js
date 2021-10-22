@@ -13,7 +13,11 @@ const FAQ = () => {
 
   return (
     <section className={css(styles.section)}>
-      <Title as="h2" expandStyles={{ fontSize: "3em", textAlign: "center" }}>
+      <Title
+        id="about"
+        as="h2"
+        expandStyles={{ fontSize: "3em", textAlign: "center" }}
+      >
         FAQ
       </Title>
 

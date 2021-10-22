@@ -3,7 +3,13 @@
     "goalList": [
       {
         "description": "The more people hear about it the more ideas are sparked to make a change.",
-        "title": "Spread the message"
+        "title": "Spread the message",
+        "image": "/images/mjabsqa.jpeg"
+      },
+      {
+        "title": "Make supermarkets shift their product offer",
+        "description": "to all, or a majority, of toilet paper from recycled material",
+        "image": "/images/mjabsqa.jpeg"
       }
     ],
     "description": "This project has NO lucrative interests. What we aim for are the following immediate goals",
@@ -15,7 +21,23 @@
     "helpList": [
       {
         "title": "Tell people about this!",
-        "description": "Tweet about it, tell your boss, post it on the gram. Spread the massage far and wide so that this becomes a concern until recycled becomes the norm. The more people start thinking about this, the more ideas are sparked to create change."
+        "description": "Tweet about it, tell your boss, post it on the gram. Spread the massage far and wide so that this becomes a concern until recycled becomes the norm. The more people start thinking about this, the more ideas are sparked to create change.",
+        "icon": "/images/004-conversation.svg"
+      },
+      {
+        "title": "Check out the Help Out",
+        "description": "page and help us with this project. There’s a wide variety of skillsets that we can use, website improvement, developing social media, contacting companies, languages, etc... If this topic motivates you send us a message!",
+        "icon": "/images/002-light-bulb.svg"
+      },
+      {
+        "title": "Write your supermarkets!",
+        "description": "Write the producers of products you use, organizations, etc to raise awareness and create a buzz and pressure. And tell your friends to do the same, they can use whatever you wrote as a template.",
+        "icon": "/images/005-united.svg"
+      },
+      {
+        "title": "Use Ecosia!",
+        "description": "Ecosia is great and it's free. It's a search engine that plants a tree with the revenue that it makes from user's searches. All of the money that people are currently giving to Google could be used for planting trees instead. Their ethic is completely transparent, so you can make sure that they are acting clean and keeping their promises. We're not sponsored by them, we just really like them.",
+        "icon": "/images/003-planet-earth.svg"
       }
     ]
   },
@@ -31,7 +53,8 @@
     },
     {
       "answer": "In a sustainable forest the trees are cut selectively so that a variation of different aged trees is kept within the forest. Which is a good thing but still not unproblematic. These methods are not perfect and still have plenty of repercussions for wildlife through habitat destruction just as every other human involvement in ecosystems. Poor management practices also result in erosion and impaired water quality in that area. It also must be regarded that the growing tree stock degenerates progressively with every felling thus reducing the forests resilience.\\\n\\\nSelective system forestry is a standard technique but when clear cuts and plantations are labelled as the conventional sustainable method people are made to think they are doing something good for the environment by purchasing virgin fibers from \"sustainable sources\" although the only sustainable version of an one-use product like toilet paper can be recycled. Wood that would otherwise be used for other higher complexity objects such as chairs and guitars is instead flushed down the toilet. This is greenwashing at its best and that is why we are opposing it. Sources: [\\[3]](https://www.greenmatters.com/p/sustainable-forestry)",
-      "question": "What is a sustainable forest? Why is it troublesome?"
+      "question": "What is a sustainable forest? Why is it troublesome?",
+      "image": ""
     }
   ],
   "title": "We are #Greenass",
