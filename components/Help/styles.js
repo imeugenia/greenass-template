@@ -1,4 +1,7 @@
 const styles = {
+  background: {
+    backgroundColor: "#eee",
+  },
   titleContainer: {
     marginBottom: "6em",
   },

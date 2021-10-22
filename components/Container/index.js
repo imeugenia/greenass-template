@@ -4,6 +4,8 @@ const styles = {
   display: "flex",
   justifyContent: "center",
   padding: "10em 3em",
+  maxWidth: "102.4rem",
+  margin: "auto",
 
   "@media (min-width: 600px)": { padding: "13em 10em" },
 };

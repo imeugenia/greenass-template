@@ -5,19 +5,15 @@ const styles = {
     backgroundImage: `url(${headerImage})`,
     backgroundSize: "cover",
     fontFamily: "'Montserrat', sans-serif",
+    color: "#ffffff",
 
     "@media (min-width: 600px)": {},
   }),
   container: {
-    display: "flex",
     flexDirection: "column",
     justifyContent: "center",
-    color: "#ffffff",
-    margin: "0 3em",
 
-    "@media (min-width: 600px)": {
-      margin: "0 10em",
-    },
+    "@media (min-width: 600px)": { paddingTop: 0, paddingBottom: 0 },
   },
   list: {
     listStyleType: "none",

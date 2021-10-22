@@ -30,26 +30,26 @@ const SecondaryDescription = () => {
   } = content;
 
   return (
-    <Container
-      expandStyles={{
-        flexDirection: "column",
-        backgroundColor: "#322a21",
-        color: "#ffffff",
-      }}
-    >
-      <Label />
-      <Title as="h2" expandStyles={{ fontSize: "3em" }}>
-        {secondaryTitle}
-      </Title>
-      <div className={css(styles.columns)}>
-        <ReactMarkdown components={components}>
-          {secondaryDescriptionFirstColumn}
-        </ReactMarkdown>
-        <ReactMarkdown components={components}>
-          {secondaryDescriptionSecondColumn}
-        </ReactMarkdown>
-      </div>
-    </Container>
+    <div className={css(styles.background)}>
+      <Container
+        expandStyles={{
+          flexDirection: "column",
+        }}
+      >
+        <Label />
+        <Title as="h2" expandStyles={{ fontSize: "3em" }}>
+          {secondaryTitle}
+        </Title>
+        <div className={css(styles.columns)}>
+          <ReactMarkdown components={components}>
+            {secondaryDescriptionFirstColumn}
+          </ReactMarkdown>
+          <ReactMarkdown components={components}>
+            {secondaryDescriptionSecondColumn}
+          </ReactMarkdown>
+        </div>
+      </Container>
+    </div>
   );
 };
 

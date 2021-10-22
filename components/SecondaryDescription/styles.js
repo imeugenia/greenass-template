@@ -9,6 +9,10 @@ const styles = {
     fontSize: "1.6em",
     lineHeight: "1.69",
   },
+  background: {
+    backgroundColor: "#322a21",
+    color: "#ffffff",
+  },
 };
 
 export default styles;

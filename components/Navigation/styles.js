@@ -19,7 +19,7 @@ const styles = {
     listStyleType: "none",
     margin: 0,
     padding: 0,
-    fontSize: "1.3rem",
+    fontSize: "1.5rem",
 
     "> li": {
       paddingBottom: "2rem",
