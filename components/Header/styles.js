@@ -32,10 +32,27 @@ const styles = {
     },
   },
   title: {
+    position: "relative",
+    fontSize: "5rem",
+    lineHeight: "1.2",
+
     "@media (min-width: 900px)": { fontSize: "7.5em" },
+  },
+  titleText: {
+    zIndex: 1,
+    position: "relative",
   },
   paragraph: {
     "@media (min-width: 900px)": { maxWidth: "40ch", fontSize: "2.4em" },
+  },
+  underline: {
+    width: "100%",
+    height: "50px",
+    position: "absolute",
+    bottom: 0,
+    backgroundColor: "rgb(74, 130, 15, 0.55)",
+    zIndex: 0,
+    left: "-2rem",
   },
 };
 

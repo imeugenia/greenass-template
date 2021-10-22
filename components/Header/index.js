@@ -19,7 +19,10 @@ const Header = () => {
       </div>
 
       <Container expandStyles={styles.container}>
-        <Title expandStyles={styles.title}>{title}</Title>
+        <Title expandStyles={styles.title}>
+          <div className={css(styles.underline)} />
+          <div className={css(styles.titleText)}>{title}</div>
+        </Title>
         <Paragraph expand={styles.paragraph}>
           <ReactMarkdown>{description}</ReactMarkdown>
         </Paragraph>
