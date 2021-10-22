@@ -6,14 +6,14 @@ const styles = {
     backgroundSize: "cover",
     fontFamily: "'Montserrat', sans-serif",
     color: "#ffffff",
-
-    "@media (min-width: 600px)": {},
   }),
   container: {
     flexDirection: "column",
     justifyContent: "center",
+    paddingTop: 0,
+    paddingBottom: 0,
 
-    "@media (min-width: 600px)": { paddingTop: 0, paddingBottom: 0 },
+    "@media (min-width: 900px)": { paddingTop: 0, paddingBottom: 0 },
   },
   list: {
     listStyleType: "none",
@@ -29,6 +29,12 @@ const styles = {
         paddingLeft: "5rem",
       },
     },
+  },
+  title: {
+    "@media (min-width: 900px)": { fontSize: "7.5em" },
+  },
+  paragraph: {
+    "@media (min-width: 900px)": { maxWidth: "40ch", fontSize: "2.4em" },
   },
 };
 

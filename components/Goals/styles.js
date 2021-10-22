@@ -7,11 +7,14 @@ const styles = {
   },
   list: {
     display: "flex",
+    flexDirection: "column",
     justifyContent: "stretch",
     flexGrow: 3,
     listStyleType: "none",
     margin: 0,
     padding: 0,
+
+    "@media (min-width: 600px)": { flexDirection: "row" },
   },
   listItem: ({ image }) => ({
     backgroundImage: `url(${image})`,

@@ -17,8 +17,8 @@ const Header = () => {
       <Navigation />
 
       <Container expandStyles={styles.container}>
-        <Title expandStyles={{ fontSize: "7.5em" }}>{title}</Title>
-        <Paragraph expand={{ maxWidth: "40ch", fontSize: "2.4em" }}>
+        <Title expandStyles={styles.title}>{title}</Title>
+        <Paragraph expand={styles.paragraph}>
           <ReactMarkdown>{description}</ReactMarkdown>
         </Paragraph>
       </Container>
