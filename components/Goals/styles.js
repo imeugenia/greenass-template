@@ -19,7 +19,6 @@ const styles = {
   listItem: ({ image }) => ({
     backgroundImage: `url(${image})`,
     backgroundPosition: "center",
-    padding: "3em 2.5em",
     borderRadius: "0.8em",
     flex: "1 1 0px",
     border: "solid 1px #e6e6e6",
@@ -28,6 +27,11 @@ const styles = {
     margin: "2em",
     color: "#ffffff",
   }),
+  listInnerBox: {
+    padding: "3em 2.5em",
+    borderRadius: "0.8em",
+    backgroundColor: "rgb(0, 0, 0, 0.5)",
+  },
   question: {
     fontSize: "1.7em",
     fontWeight: 500,

@@ -50,12 +50,14 @@ const Goals = () => {
           {goals.goalList.map(
             ({ title, description, image, imageDescription }, index) => (
               <li key={index} className={css(styles.listItem({ image }))}>
-                <Title as="h3" expandStyles={styles.question}>
-                  {title}
-                </Title>
-                <ReactMarkdown components={getComponents()}>
-                  {description}
-                </ReactMarkdown>
+                <div className={css(styles.listInnerBox)}>
+                  <Title as="h3" expandStyles={styles.question}>
+                    {title}
+                  </Title>
+                  <ReactMarkdown components={getComponents()}>
+                    {description}
+                  </ReactMarkdown>
+                </div>
               </li>
             )
           )}

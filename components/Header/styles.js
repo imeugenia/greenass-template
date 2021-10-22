@@ -7,6 +7,9 @@ const styles = {
     fontFamily: "'Montserrat', sans-serif",
     color: "#ffffff",
   }),
+  navBackground: {
+    backgroundColor: "rgb(50, 42, 33, 0.5)",
+  },
   container: {
     flexDirection: "column",
     justifyContent: "center",
