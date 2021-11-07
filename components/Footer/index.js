@@ -8,7 +8,7 @@ const Footer = () => {
 
   return (
     <footer className={css(styles.footer)}>
-      <Navigation extend={styles.extend} />
+      <Navigation extend={styles.extend} withSocialMedia />
     </footer>
   );
 };

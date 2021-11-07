@@ -7,6 +7,7 @@ import styles from "./styles";
 import Paragraph from "../Paragraph";
 import Navigation from "../Navigation";
 import Container from "../Container";
+import SocialMedia from "../SocialMedia";
 
 const Header = () => {
   const { css } = useFela();
@@ -26,6 +27,7 @@ const Header = () => {
         <Paragraph expand={styles.paragraph}>
           <ReactMarkdown>{description}</ReactMarkdown>
         </Paragraph>
+        <SocialMedia />
       </Container>
     </header>
   );

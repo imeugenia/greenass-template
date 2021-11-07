@@ -1,8 +1,9 @@
 import React from "react";
 import { useFela } from "react-fela";
+import SocialMedia from "../SocialMedia";
 import styles from "./styles";
 
-const Navigation = () => {
+const Navigation = ({ withSocialMedia }) => {
   const { css } = useFela();
 
   return (
@@ -19,6 +20,7 @@ const Navigation = () => {
           <li>
             <a href="#help">Help out</a>
           </li>
+          {withSocialMedia && <SocialMedia />}
         </ul>
       </nav>
     </div>
