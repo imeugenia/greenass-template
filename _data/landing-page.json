@@ -10,6 +10,10 @@
         "title": "Make supermarkets shift their product offer",
         "description": "to all, or a majority, of toilet paper from recycled material",
         "image": "/images/mjabsqa.jpeg"
+      },
+      {
+        "title": "Make companies phase out virgin wood in their production of toilet paper",
+        "description": "Many companies already have the option of using recycled raw material, all they need to do is to pivot."
       }
     ],
     "description": "This project has NO lucrative interests. What we aim for are the following immediate goals",
@@ -55,6 +59,30 @@
       "answer": "In a sustainable forest the trees are cut selectively so that a variation of different aged trees is kept within the forest. Which is a good thing but still not unproblematic. These methods are not perfect and still have plenty of repercussions for wildlife through habitat destruction just as every other human involvement in ecosystems. Poor management practices also result in erosion and impaired water quality in that area. It also must be regarded that the growing tree stock degenerates progressively with every felling thus reducing the forests resilience.\\\n\\\nSelective system forestry is a standard technique but when clear cuts and plantations are labelled as the conventional sustainable method people are made to think they are doing something good for the environment by purchasing virgin fibers from \"sustainable sources\" although the only sustainable version of an one-use product like toilet paper can be recycled. Wood that would otherwise be used for other higher complexity objects such as chairs and guitars is instead flushed down the toilet. This is greenwashing at its best and that is why we are opposing it. Sources: [\\[3]](https://www.greenmatters.com/p/sustainable-forestry)",
       "question": "What is a sustainable forest? Why is it troublesome?",
       "image": ""
+    },
+    {
+      "answer": "Wastepaper serves as a raw material that is put into chemicals and water where impurities such as ink are removed. This pulp can now be further processed without bleaching. This is in contrast to the production of virgin fibers, where the pulp must be released from the wood. That process requires heating to 160°C, high pressure and a sulfur salt solution. After burning unwanted residues that hold the wood together you get a brown pulp that still needs to be bleached. In both cases the moist pulp is dewatered, pressed and processed, but the use of already produced pulp in recycled paper is therefore much easier: 60% less energy and water are consumed in comparison. The reduced use of chemicals in recycled paper also speaks for reuse.\n\n![Diagram of the cycle of paper. Trees are introduced into the cycle of paper production and are turned into various products. Some paper joins the cycle again while a portion of it is lost to waste or because of the degradation of the cellulose fibers.](https://freight.cargo.site/w/770/q/94/i/fd8ef7a2a30db074f57394beb51129ebf0cc9a150ccc6bba6156ca7cff0b35b4/Flow-of-recovered-fibers.png)\n\nFresh pulp has the potential to be recycled up to six times and still remain stable. In contrast toilet paper has only a short service life and is immediately washed down in the toilet, so why should a tree be cut down for this sole purpose? It is perfectly possible to rely exclusively on recycled goods for toilet paper, thereby giving the original tree fibers a longer life.\\\nSources: [\\[2]](http://www.paperenvironment.org/PDF/recycling/Recycled_Fiber_Full_Text.pdf) and [\\[4]](http://www.recyclingflyer.de/index.php/startseite/informationen/recyclingpapier)",
+      "question": "Why is recycled better?"
+    },
+    {
+      "question": "What is Greenwashing?",
+      "answer": "Greenwashing is when companies use labels, colors and symbols that make you think that a product is eco-friendly when in reality it's not, it's just a marketing strategy with no base. Here are some things you might encounter and should be critical about:\n\n* \"100% recycl***able***\" - Yes, the plastic wrapper can be recycled, so why is yours not made from recycled plastic itself?\n* \"100% Cellulose\" - O.K.! Thank you for not making my toilet paper out of plastic, sheesh...\n* \"Forests for all forever\" - You're not siding on forests of you're exploiting them for your butt. An empty slogan.\n* Pictures of trees and leaves - Nice decoration! But maybe we should we call it *green appropriation*. Don't fool us.\n\nAnd this is what greenwashing looks like in action:\n\n![](https://freight.cargo.site/w/1251/q/75/i/e70cead6fe068bb2ab779efe397c1c5c4829a031bd69015612c85d053cc7dcd2/Sin-nombre.png)![](https://freight.cargo.site/w/719/q/75/i/e77c3ddbab687bba4c5983fbca85e232c34ab139a5596fc2d25c9523e81242de/photo-2021-06-04-10-12-50-2_orig.jpg)![](https://freight.cargo.site/w/1031/q/75/i/c8434614fb44fe9d75deac8a7dc685ed01125c0e6c8a9ffc274632995f5d47ee/toilet-paper-pack-original_orig.jpg)"
+    },
+    {
+      "question": "Does it have to be 100% recycled?",
+      "answer": "It does not have to be exactly 100% recycled but a large percentage of it, we can still cut the companies some slack. However, although currently many brands already use a small percentage of recycled material (< 30%),  it should be  the other way around  : toilet paper mostly made of recycled material (> 70%) and a small percentage of virgin pulp if they need it for stability.\\\n\\\nAlso, did you know there are alternatives to tree pulp? Some examples of virgin raw materials that are not from chopped down trees are being used and explored: sugarcane, grass, byproducts of agricultural industry, all of which can become virgin pulp but taken from material that would be otherwise wasted, instead of precious wood - solving two problems with one solution. Products made with these materials would not be from recycled paper but would nonetheless be a good sustainable alternative."
+    },
+    {
+      "question": "My supermarket doesn't sell recycled toilet paper, what should I do?",
+      "answer": "If it’s hard for you to find recycled options or they are too expensive for your pocket it’s not your fault. But we can and should change the system so that it’s easier (or even automatic) for people to make clean choices! \n\nWhat you can do is write your supermarkets and tell your friends:\\\nThe way supermarkets work may seem inflexible but they do listen to demand, the worst thing for them is to receive a bad media image. Share this page and create pressure onto your local stores for them to include a recycled option, you can use a template (coming up) or write your own letter. Don't get too caught up in how formal the letter is, the amount of letters they receive -including yours- is more important. Help us make recycled the norm!"
+    },
+    {
+      "question": "Are your stickers made out of recycled paper?",
+      "answer": "The stickers were printed on bio-fibers with vegan glue and free of plastic films or microplastic, and ink free of mineral oils. But unfortunately, they were not made from recycled fibers because it is either not available or prohibitively expensive because it is sadly not the norm yet. Help us change that!"
+    },
+    {
+      "question": "Is recycled toilet paper safe?",
+      "answer": "Yes, and you've probably already used recycled toilet paper without even noticing. To produce toilet paper you only need to keep the cellulose fibers, so the source paper is cleaned to do so. Universities, bars and restaurants generally buy in bulk and use the more economical products from recycled paper. Also, toilet paper from virgin wood is usually worse since it has to be heavily processed and bleached, which is less healthy for you (and the environment)."
     }
   ],
   "title": "We are #Greenass",
