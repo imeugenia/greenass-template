@@ -15,10 +15,7 @@ const Header = () => {
 
   return (
     <header className={css(styles.header({ headerImage }))}>
-      <div className={css(styles.navBackground)}>
-        <Navigation />
-      </div>
-
+      <Navigation />
       <Container expandStyles={styles.container}>
         <Title expandStyles={styles.title}>
           <div className={css(styles.underline)} />

@@ -3,26 +3,23 @@ const styles = {
     display: "flex",
     justifyContent: "center",
     padding: "3em",
-    maxWidth: "102.4rem",
-    flexDirection: "column",
-    color: "#ffffff",
-    fontFamily: "'Montserrat', sans-serif",
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "baseline",
 
     "@media (min-width: 900px)": {
-      flexDirection: "row",
-      justifyContent: "space-between",
-      alignItems: "baseline",
       margin: "0 auto",
+      padding: "3em",
     },
   },
-  list: {
+  list: (isColumnOnMobile) => ({
     fontFamily: "'Montserrat', sans-serif",
     listStyleType: "none",
     margin: 0,
     padding: 0,
     fontSize: "1.8rem",
     display: "flex",
-    justifyContent: "space-between",
+    ...(isColumnOnMobile && { flexDirection: "column" }),
 
     "@media (min-width: 600px)": {
       justifyContent: "flex-start",
@@ -38,7 +35,7 @@ const styles = {
 
       "@media (min-width: 900px)": { padding: "0 0 0 5rem" },
     },
-  },
+  }),
   label: {
     fontFamily: "'Montserrat', sans-serif",
     fontSize: "2rem",
