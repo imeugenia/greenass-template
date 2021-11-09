@@ -3,6 +3,7 @@ import { useFela } from "react-fela";
 import Hamburger from "../Icons/Hamburger";
 import Cross from "../Icons/Cross";
 import VisuallyHidden from "../VisuallyHidden";
+import Container from "../Container";
 import styles from "./styles";
 
 const HamburgerNavigation = () => {
@@ -10,15 +11,19 @@ const HamburgerNavigation = () => {
   const { css } = useFela();
 
   return (
-    <div>
-      <button
-        className={css(styles.toggle)}
-        onClick={() => setIsOpen((prevState) => !prevState)}
-      >
-        {isOpen ? <Cross /> : <Hamburger />}
-        <VisuallyHidden>Open menu</VisuallyHidden>
-      </button>
-      <nav>
+    <Container expandStyles={() => styles.container(isOpen)}>
+      <div className={css(styles.toggleBox(isOpen))}>
+        <span className={css(styles.label)}>#greenass</span>
+        <button
+          className={css(styles.toggle)}
+          onClick={() => setIsOpen((prevState) => !prevState)}
+        >
+          {isOpen ? <Cross /> : <Hamburger />}
+          <VisuallyHidden>Open menu</VisuallyHidden>
+        </button>
+      </div>
+
+      <nav className={css(styles.nav(isOpen))}>
         <ul className={css(styles.list)}>
           <li>
             <a href="#about">About Project</a>
@@ -31,7 +36,7 @@ const HamburgerNavigation = () => {
           </li>
         </ul>
       </nav>
-    </div>
+    </Container>
   );
 };
 
