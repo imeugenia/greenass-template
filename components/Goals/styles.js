@@ -6,25 +6,19 @@ const styles = {
     display: "flex",
   },
   list: {
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "stretch",
-    flexGrow: 3,
+    display: "grid",
+    gap: "4rem",
     listStyleType: "none",
     margin: 0,
     padding: 0,
 
-    "@media (min-width: 600px)": { flexDirection: "row" },
+    "@media (min-width: 600px)": { gridTemplateColumns: "1fr 1fr" },
   },
   listItem: ({ image }) => ({
     backgroundImage: `url(${image})`,
     backgroundPosition: "center",
     borderRadius: "0.8em",
-    flex: "1 1 0px",
     border: "solid 1px #e6e6e6",
-    display: "flex",
-    flexDirection: "column",
-    margin: "2em",
     color: "#ffffff",
   }),
   listInnerBox: {
