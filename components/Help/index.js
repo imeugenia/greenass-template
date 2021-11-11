@@ -7,6 +7,7 @@ import content from "../../_data/landing-page.json";
 import Paragraph from "../Paragraph";
 import Container from "../Container";
 import styles from "./styles";
+import HelpOut from "../HelpOut";
 
 const getComponents = (expandProps) => {
   const components = {
@@ -22,7 +23,7 @@ const Help = () => {
   const { contributions } = content;
 
   return (
-    <div className={css(styles.background)}>
+    <section className={css(styles.background)}>
       <Container
         expandStyles={{
           flexDirection: "column",
@@ -71,8 +72,9 @@ const Help = () => {
             )}
           </ul>
         </div>
+        <HelpOut />
       </Container>
-    </div>
+    </section>
   );
 };
 

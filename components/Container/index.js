@@ -10,10 +10,13 @@ const styles = {
   "@media (min-width: 900px)": { padding: "13em 10em" },
 };
 
-const Container = ({ children, expandStyles }) => {
+const Container = ({ children, expandStyles, as }) => {
   const { css } = useFela();
+  const Component = as || "div";
 
-  return <div className={css(styles, expandStyles)}>{children}</div>;
+  return (
+    <Component className={css(styles, expandStyles)}>{children}</Component>
+  );
 };
 
 export default Container;
