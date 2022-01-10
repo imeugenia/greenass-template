@@ -7,7 +7,7 @@ import content from "../../_data/landing-page.json";
 import Paragraph from "../Paragraph";
 import styles from "./styles";
 
-const getComponents = (expandProps) => {
+const useComponents = (expandProps) => {
   const { css } = useFela();
 
   const components = {
@@ -21,8 +21,14 @@ const getComponents = (expandProps) => {
         />
       );
     },
+    a: (props) => (
+      <a className={css({ color: "rgb(74 130 15)" })} {...props}>
+        {props.children}
+      </a>
+    ),
   };
   components.img.displayName = "Image";
+  components.a.displayName = "Link";
 
   return components;
 };
@@ -30,6 +36,7 @@ const getComponents = (expandProps) => {
 const FAQ = () => {
   const { css } = useFela();
   const { faq } = content;
+  const RichTextComponents = useComponents();
 
   return (
     <section className={css(styles.section)}>
@@ -54,7 +61,7 @@ const FAQ = () => {
                   <div className={css(styles.icon)} />
                 </summary>
                 <Paragraph>
-                  <ReactMarkdown components={getComponents()}>
+                  <ReactMarkdown components={RichTextComponents}>
                     {answer}
                   </ReactMarkdown>
                 </Paragraph>
