@@ -24,18 +24,17 @@ const styles = {
     "@media (min-width: 600px)": {
       justifyContent: "flex-start",
     },
-
-    "> li": {
-      paddingBottom: "2rem",
-      display: "inline-block",
-
-      "@media (min-width: 600px)": {
-        padding: "0 5rem 0 0",
-      },
-
-      "@media (min-width: 900px)": { padding: "0 0 0 5rem" },
-    },
   }),
+  listItem: {
+    paddingBottom: "2rem",
+    display: "inline-block",
+
+    "@media (min-width: 600px)": {
+      padding: "0 5rem 0 0",
+    },
+
+    "@media (min-width: 900px)": { padding: "0 0 0 5rem" },
+  },
   label: {
     fontFamily: "'Montserrat', sans-serif",
     fontSize: "2rem",
@@ -47,6 +46,21 @@ const styles = {
     "@media (min-width: 900px)": {
       paddingBottom: 0,
       display: "inline-block",
+    },
+  },
+  back: {
+    color: "#a7a7a7",
+    padding: "0",
+    margin: "3rem 0",
+
+    "@media (min-width: 600px)": {
+      padding: "0 0 0 5rem",
+      margin: "0",
+    },
+
+    "@media (min-width: 900px)": {
+      padding: "0 0 0 5rem",
+      margin: "0",
     },
   },
 };

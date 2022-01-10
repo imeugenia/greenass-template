@@ -24,16 +24,21 @@ const Navigation = ({ withSocialMedia, isFooter }) => {
       <span className={css(styles.label)}>#greenass</span>
       <nav>
         <ul className={css(styles.list(viewportWidth < 600 && isFooter))}>
-          <li>
+          <li className={css(styles.listItem)}>
             <a href="#about">About Project</a>
           </li>
-          <li>
+          <li className={css(styles.listItem)}>
             <a href="#goals">Our Goals</a>
           </li>
-          <li>
+          <li className={css(styles.listItem)}>
             <a href="#help">Help out</a>
           </li>
           {withSocialMedia && <SocialMedia />}
+          {isFooter && (
+            <li className={css(styles.listItem, styles.back)}>
+              <a href="#header">↑ Back to top</a>
+            </li>
+          )}
         </ul>
       </nav>
     </Container>

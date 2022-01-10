@@ -14,7 +14,7 @@ const Header = () => {
   const { headerImage, title, description } = content;
 
   return (
-    <header className={css(styles.header({ headerImage }))}>
+    <header className={css(styles.header({ headerImage }))} id="header">
       <Navigation />
       <Container expandStyles={styles.container}>
         <Title expandStyles={styles.title}>
