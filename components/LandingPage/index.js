@@ -5,6 +5,7 @@ import Header from "../Header";
 import SecondaryDescription from "../SecondaryDescription";
 import Video from "../Video";
 import Help from "../Help";
+import Contact from "../Contact";
 import Footer from "../Footer";
 
 const LandingPage = () => {
@@ -16,6 +17,7 @@ const LandingPage = () => {
       <FAQ />
       <Goals />
       <Help />
+      <Contact />
       <Footer />
     </>
   );

@@ -115,8 +115,8 @@ collections:
                       widget: "image",
                       required: false,
                     }
-          - label: "HelpOut"
-            name: "helpOut"
+          - label: "Contact"
+            name: "contact"
             widget: "object"
             collapsed: true
             fields:
@@ -126,14 +126,4 @@ collections:
                   name: "description",
                   widget: "markdown",
                 }
-              - label: "List"
-                name: "list"
-                widget: "list"
-                collapsed: true
-                fields:
-                  - { label: "Title", name: "title", widget: "string" }
-                  - {
-                      label: "Description",
-                      name: "description",
-                      widget: "markdown",
-                    }
+              - { label: "Email", name: "email", widget: "string" }
