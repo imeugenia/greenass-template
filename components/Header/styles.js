@@ -4,6 +4,7 @@ const styles = {
     height: "100vh",
     backgroundImage: `url(${headerImage})`,
     backgroundSize: "cover",
+    backgroundColor: "rgb(50, 42, 33)",
     fontFamily: "'Montserrat', sans-serif",
     color: "#ffffff",
   }),
