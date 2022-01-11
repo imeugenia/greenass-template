@@ -1,6 +1,26 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
+import { renderToNodeList } from "react-fela";
+import { createRenderer } from "fela";
 
 class MyDocument extends Document {
+  static async getInitialProps(context) {
+    const renderer = createRenderer();
+    const originalRenderPage = context.renderPage;
+
+    context.renderPage = () =>
+      originalRenderPage({
+        enhanceApp: (App) =>
+          function EnhancedApp(props) {
+            return <App {...props} renderer={renderer} />;
+          },
+      });
+
+    const initialProps = await Document.getInitialProps(context);
+    const styles = [...initialProps.styles, ...renderToNodeList(renderer)];
+
+    return { ...initialProps, styles };
+  }
+
   render() {
     return (
       <Html lang="en">
