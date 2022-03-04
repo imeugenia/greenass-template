@@ -18,7 +18,8 @@
       },
       {
         "title": "Make companies phase out virgin wood in their production of toilet paper",
-        "description": "Many companies already have the option of using recycled raw material, all they need to do is to pivot."
+        "description": "Many companies already have the option of using recycled raw material, all they need to do is to pivot.",
+        "image": "/images/mjabsqa.jpeg"
       }
     ],
     "description": "This project has NO lucrative interests. What we aim for are the following immediate goals",
@@ -48,28 +49,28 @@
         "description": "Ecosia is great and it's free. It's a search engine that plants a tree with the revenue that it makes from user's searches. All of the money that people are currently giving to Google could be used for planting trees instead. Their ethic is completely transparent, so you can make sure that they are acting clean and keeping their promises. We're not sponsored by them, we just really like them.",
         "icon": "/images/003-planet-earth.svg"
       }
-    ],
-    "moreHelp": {
-      "title": "More things you can do",
-      "description": "There’s something for all types of engagement levels. If it looks like any of the following topics seem like something you’d like to help us out with send us a message :)!",
-      "list": [
-        {
-          "title": "Take Stickers",
-          "description": "Take our stickers and stick them in your city! Write us a message with your address and we’ll them to you, no matter where you are in the world"
-        },
-        {
-          "title": "Write Letters",
-          "description": "Communication with companies: write a letter to supermarkets and TP producers, or let us know of networking connections"
-        },
-        {
-          "title": "Website",
-          "description": "Think of ways to improve the website to make it more share-able."
-        }
-      ]
-    }
+    ]
   },
   "secondaryTitle": "We’re calling out the Greenwashing.",
   "secondaryDescription": "We are #Greenass.  Many big companies claim that their toilet paper is made from „sustainable forests“ but all that it means is that you will wipe your butt with beautiful trees that have been cut down just to end up down the drain...  Do you want to carry that guilt on your ass?? We think not, we know you want a **\\#greenass**.   But how do we recognize what toilet paper is ok to buy? Why is it so much better to use recycled? We've got the answers for you.",
+  "helpOut": {
+    "title": "More things you can do",
+    "description": "There’s something for all types of engagement levels. If it looks like any of the following topics seem like something you’d like to help us out with send us a message :)!",
+    "list": [
+      {
+        "title": "Take Stickers",
+        "description": "Take our stickers and stick them in your city! Write us a message with your address and we’ll them to you, no matter where you are in the world"
+      },
+      {
+        "title": "Write Letters",
+        "description": "Communication with companies: write a letter to supermarkets and TP producers, or let us know of networking connections"
+      },
+      {
+        "title": "Website",
+        "description": "Think of ways to improve the website to make it more share-able."
+      }
+    ]
+  },
   "headerImage": "/images/image1170x530cropped.jpeg",
   "secondaryDescriptionSecondColumn": "Do you want to carry that guilt on your ass?? We think not, we know you want a **\\#greenass**. But how do we recognize what toilet paper is ok to buy? Why is it so much better to use recycled? We've got the answers for you.",
   "faq": [
