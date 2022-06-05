@@ -35,14 +35,14 @@
         "icon": "/images/004-conversation.svg"
       },
       {
-        "title": "Check out the Help Out",
-        "description": "page and help us with this project. There’s a wide variety of skillsets that we can use, website improvement, developing social media, contacting companies, languages, etc... If this topic motivates you send us a message!",
-        "icon": "/images/002-light-bulb.svg"
-      },
-      {
         "title": "Write your supermarkets!",
         "description": "Write the producers of products you use, organizations, etc to raise awareness and create a buzz and pressure. And tell your friends to do the same, they can use whatever you wrote as a template.",
         "icon": "/images/005-united.svg"
+      },
+      {
+        "title": "Check out the Help Out",
+        "description": "page and help us with this project. There’s a wide variety of skillsets that we can use, website improvement, developing social media, contacting companies, languages, etc... If this topic motivates you send us a message!",
+        "icon": "/images/002-light-bulb.svg"
       },
       {
         "title": "Use Ecosia!",
