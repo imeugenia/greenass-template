@@ -52,7 +52,13 @@
     ],
     "moreHelp": {
       "title": "More things you can do",
-      "description": "\n\nThere’s something for all types of engagement levels. If it looks like any of the following topics seem like something you’d like to help us out with send us a message :)!"
+      "description": "\n\nThere’s something for all types of engagement levels. If it looks like any of the following topics seem like something you’d like to help us out with send us a message :)!",
+      "list": [
+        {
+          "title": "Title of support",
+          "description": "Description of support"
+        }
+      ]
     }
   },
   "secondaryTitle": "We’re calling out the Greenwashing.",
