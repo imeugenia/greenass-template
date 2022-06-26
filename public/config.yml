@@ -115,6 +115,28 @@ collections:
                       widget: "image",
                       required: false,
                     }
+              - label: "More help list"
+                name: "moreHelp"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - {
+                      label: "Description",
+                      name: "description",
+                      widget: "markdown",
+                    }
+                  - label: "Help list"
+                    name: "list"
+                    widget: "list"
+                    collapsed: true
+                    fields:
+                      - { label: "Title", name: "title", widget: "string" }
+                      - {
+                          label: "Description",
+                          name: "description",
+                          widget: "markdown",
+                        }
           - label: "Contact"
             name: "contact"
             widget: "object"

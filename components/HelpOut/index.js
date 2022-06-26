@@ -9,7 +9,7 @@ import styles from "./styles";
 
 const HelpOut = () => {
   const { css } = useFela();
-  const { helpOut } = content;
+  const { moreHelp } = content.contributions;
 
   return (
     <details className={css(styles.details)}>
@@ -18,10 +18,10 @@ const HelpOut = () => {
         <div className={css(styles.icon)} />
       </summary>
       <Paragraph expand={{ marginBottom: "3em" }}>
-        <ReactMarkdown>{helpOut.description}</ReactMarkdown>
+        <ReactMarkdown>{moreHelp.description}</ReactMarkdown>
       </Paragraph>
       <ul className={css(styles.list)}>
-        {helpOut.list.map(({ title, description }, index) => {
+        {moreHelp.list.map(({ title, description }, index) => {
           return (
             <li key={index} className={css(styles.listItem)}>
               <>
