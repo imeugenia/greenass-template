@@ -34,7 +34,7 @@ const styles = {
     padding: 0,
   },
   listItem: {
-    padding: "3em 2.5em",
+    padding: "2em 2.5em",
     marginBottom: "0.8em",
     borderRadius: "0.8em",
     border: "solid 1px #e6e6e6",
@@ -71,6 +71,10 @@ const styles = {
     ":not([open]) > summary > div": {
       backgroundImage: "url('/images/arrowDown.svg')",
     },
+
+    ":not([open]) > summary > h3": {
+      margin: 0,
+    },
   },
   summary: {
     display: "block",
@@ -78,6 +82,7 @@ const styles = {
     textDecoration: "none",
     display: "flex",
     justifyContent: "space-between",
+    alignItems: "center",
 
     "::-webkit-details-marker": {
       display: "none",
